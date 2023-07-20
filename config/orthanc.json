@@ -5,7 +5,7 @@
 
   // The logical name of this instance of Orthanc. This one is
   // displayed in Orthanc Explorer and at the URI "/system".
-  "Name" : "Orthanc inside Docker",
+  "Name" : "ScanTeb PACS",
   "PostgreSQL" : {
     "EnableIndex" : true,
     "EnableStorage" : true,
@@ -107,7 +107,7 @@
   "DicomServerEnabled" : true,
 
   // The DICOM Application Entity Title
-  "DicomAet" : "ORTHANC",
+  "DicomAet" : "SCANTEB",
 
   // Check whether the called AET corresponds to the AET of Orthanc
   // during an incoming DICOM SCU request
